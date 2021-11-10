@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WDFBatch5 Sport Website</title>
+	<link href="booking.css" rel= "stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<nav>
+		<img src = "logo.png" width="170px" height = "80px" alt= "logo" style="padding: 0;margin: 0;" />
+		<h1 style="font-size: 30px;font-family: 'Cinzel', serif;letter-spacing: 2px;text-transform: uppercase;line-height: 50px;color:#2177b5;">WDF(5)Sport</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="newactivities.html">New Activites</a></li>
+			<li><a href="booking.html">Book Online</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	</nav>
+
+		<div class="intro">
+
+			<div class="booking">
+			<h2>Booking with us</h2>
+			<form action="" method="" enctype="multipart/form-data" class="form">
+
+			<h2></h2>
+
+			<div class="form-group">
+			<input type="text" name="username" id="username" class="form-control" placeholder="Enter username" autocomplete="off" />
+			</div>
+
+			<div class="form-group">
+			<input type="email" name="email" id="email" class="form-control"placeholder="Enter email" autocomplete="off" />
+			</div>
+
+			<div class="form-group">
+			<select name="sport" id="sport" class="form-control" style="width:570px;appearance:none;background-image: url('data:image/png;base64,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');background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-x: 98%;">
+				<option selected disabled>Select the Sport you want to Do</option>
+				<option>Football</option>
+				<option>Basketball</option>
+				<option>Volleyball</option>
+				<option>Ballet</option>
+				<option>Tennis</option>
+				<option>Swimming</option>
+				<option>Wrestling</option>
+				<option>Gym</option>
+				<option>Hiking</option>
+				<option>Rugby</option>
+				<option>Scuba Diving</option>
+				<option>Sky Diving</option>
+			</select>
+			</div>
+
+			<div class="form-group">
+			<input type="date" name="date" id="date" class="form-control" />
+			</div>
+
+			<div class="form-group">
+			<input type="radio" name="pay" id="pay" class="radio" checked /><label><i class="fab fa-cc-paypal" style="font-size: 50px;"></i></label>
+
+			<input type="radio" name="pay" id="pay" class="radio" /><label><i class="fab fa-cc-visa" style="font-size: 50px;"></i></label>
+
+			<input type="radio" name="pay" id="pay" class="radio" /><label><i class="fab fa-google-wallet" style="font-size: 50px;"></i></label>
+			</div>
+
+			<div class="form-group">
+				<button type="submit">Book With Us</button>
+			</div>
+
+			
+		</div>
+			<div class="text">
+				<h2>Booking System</h2>
+				<p>We'll take online booking next year.Payment System By paypal,Visa,Wallet.Come and Join With us.</p>
+			</div>
+	
+		</div>
+
+		
+
+		<div class="footer">
+		<div class="contact">
+			<h1 style="color:darkcyan;">WDF(5)Sport</h1>
+			<h3>Stay Connected</h3>
+			<p>Join with us and change your lifestyle...</p>
+
+			<div class="form-group">
+				<input type="email" name="email" id="email" class="subscribe" placeholder="Enter your Email" autocomplete="off" style="width:250px" />
+				<button style="width:120px;padding:14px;background-color: #7d9631;border:none;	font-family: 'Fruktur', cursive;font-size: 15px;letter-spacing: 2px;font-weight: bold;">SUBSCRIBE</button>
+
+			</div>
+
+			<span style="font-size: 20px;">We offer all kinds of sports and make changes for your body... </span><br/><br/>
+
+			
+
+			<i class="fab fa-facebook-f" style="font-size: 25px;padding: 10px;"></i>
+			<i class="fab fa-twitter"  style="font-size: 25px;padding: 10px;"></i>
+			<i class="fab fa-youtube"  style="font-size: 25px;padding: 10px;"></i>
+			<i class="fab fa-instagram" style="font-size: 25px;padding: 10px;"></i>
+
+
+			
+		</div>
+		<div class="pay">
+			<h1 style="margin: 30px;">Navigate</h1>
+			<a href="#">Portfolio</a>
+			<a href="#">Share link</a>
+			<a href="#">Boxing</a>
+			<a href="#">Shooting</a><br/>
+			<a href="#">football</a>
+			<a href="#">Rugby</a>
+			<a href="#">Ballet</a>
+			<a href="#">Scuba Diving</a><br/>
+			<a href="#">Sky Diving</a>
+			<a href="#">Marathon</a>
+			<a href="#">Bicycle</a>
+			<a href="#">Gym</a>
+			<a href="#">Services</a>
+			<a href="#">Consulting</a>
+			<a href="#">Events</a><br/>
+			<a href="#">Party</a>
+			<a href="#">Our team</a>
+			<a href="#">Location</a>
+			<a href="#">About Us</a><br/>
+			<a href="#">FAQs</a>
+			<a href="#">Details</a>
+			<a href="#">Support</a>
+			<a href="#">Admin's Info</a><br/>
+
+			<b style="font-size: 20px;margin-left: 30px;">Payment System By</b>
+
+			<i class="fab fa-cc-paypal" style="font-size: 40px;padding: 10px;"></i>
+			<i class="fab fa-cc-visa" style="font-size: 40px;padding: 10px;"></i>
+			<i class="fab fa-google-wallet" style="font-size: 40px;padding: 10px;"></i>
+
+			
+			<hr/>
+
+			<small style="font-size: 20px;margin:30px;color:#7d9631">Copyright &#x000A9;<span id = "span"></span> By Thin Htet Kyaw (Web Development Batch 5)</small>
+
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+		let date = new Date();
+
+		document.getElementById('span').textContent = date.getFullYear();
+	</script>
+</body>
+</html>
